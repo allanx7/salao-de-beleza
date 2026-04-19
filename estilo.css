@@ -42,7 +42,7 @@ font-size: 20px;
 font-variant: small-caps;
 }
 
-.container {
+.container1 {
     width: 90%;
     max-width: 1102px;
     margin: auto;
@@ -74,11 +74,12 @@ a:hover {
 }
 
 .hero {
-    margin-top: 8%;
+    margin-top: 13%;
     width: 90vh;
     background-image: url(.) cover/center;
     display: flex;
     align-items: center;
+    margin-left: 1%;
 }
 
 .hero text {
@@ -104,6 +105,46 @@ a:hover {
 }
 
 #serviços {
+    text-align: center;
+    margin-top: 40px;
     background-color: var(--cor-principal-destaque);
-    padding: 60px 0;
+    padding: 20px 0;
+}
+
+.card:hover {
+    background-color: #ddd;
+    transition: 1s;
+    border-radius: 50px 50px 50px 50px;
+    cursor: pointer;
+    
+}
+
+.container {
+    font-size: 20px;
+  text-align: center;
+font-variant: small-caps;
+}
+
+.card {
+    padding: 6px;
+    display: inline-block;
+}
+
+.container4 {
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap: 20px;
+    display: grid;
+}
+
+#galeria {
+   background-color: #ddd;
+}
+
+
+
+
+.loira {
+
+    padding: 20px;
+    background-color: #0e0505;  
 }
