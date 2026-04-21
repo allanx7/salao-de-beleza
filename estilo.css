@@ -132,8 +132,6 @@ font-variant: small-caps;
 
 .container4 {
     grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
-    gap: 20px;
-    display: grid;
 }
 
 #galeria {
@@ -141,10 +139,9 @@ font-variant: small-caps;
 }
 
 
-
-
 .loira {
-
-    padding: 20px;
-    background-color: #0e0505;  
+    padding: 10%;
+    display: flex;
+    margin-left: 30%;
 }
+
